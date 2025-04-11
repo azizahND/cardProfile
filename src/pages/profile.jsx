@@ -18,7 +18,7 @@ function Profile() {
       <div className="relative">
         <img src={sangkar} alt="sangkar" className="z-0" />
 
-        <div className="absolute top-0 left-0 w-full mt-3 h-full flex items-center  justify-center z-10">
+        <div className="absolute top-0 left-0 w-full mt-6 h-full flex items-center  justify-center z-10">
           <Card
             src = {poto}
             judul={
