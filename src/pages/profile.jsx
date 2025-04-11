@@ -18,12 +18,12 @@ function Profile() {
       <div className="relative">
         <img src={sangkar} alt="sangkar" className="z-0" />
 
-        <div className="absolute top-0 left-0 w-full h-full flex items-center  justify-center z-10">
+        <div className="absolute top-0 left-0 w-full mt-3 h-full flex items-center  justify-center z-10">
           <Card
             src = {poto}
             judul={
                 <>
-                  <span className="text-blue-900 bg-purple-300 pl-2 pr-2 font-extrabold shadow-md"> Azizah</span>Novi Delfianti
+                  <span className="text-blue-900 bg-purple-300 pl-2 pr-2 font-extrabold shadow-md animate-bounce"> Azizah</span>Novi Delfianti
                 </>
               }
             deskripsi="Mahasiswa Sistem Informasi yang memiliki minat besar di bidang front-end development, khususnya dalam membangun antarmuka web yang menarik dan responsif."
